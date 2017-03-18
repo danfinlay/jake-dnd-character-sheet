@@ -1,0 +1,33 @@
+div {
+  padding: 10px;
+}
+
+.reverse-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-begin;
+}
+
+.center-row {
+  display: flex;
+  justify-content: center;
+}
+
+.columns {
+  display: flex;
+  flex-direction: columns;
+  flex-flow: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.spill {
+  width: 150px;
+}
